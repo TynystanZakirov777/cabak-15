@@ -1,0 +1,83 @@
+body{
+    /* background-color: aquamarine; */
+    background-image: url(https://www.shutterstock.com/image-vector/line-racing-track-start-finish-260nw-1715941159.jpg);
+    height: 300px;
+}
+
+/* .rei{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background-color: yellow;
+    box-shadow: 0px 0px 70px 30px orange;
+    position: relative;
+    animation: REI 5s infinite;
+    top: 500px;
+} */
+
+/* @keyframes REI {
+    0%{
+        left: 0px;
+        top: 500px;
+    }
+
+    25%{
+        left: 230px;
+        top: 300px;
+    }
+    40%{
+        left: 500px;
+        top: 50px;
+    }
+    60%{
+        left: 900px;
+        top: 50px;
+    }
+    75%{
+        left: 1090px;
+        top: 300px;
+    }
+    100%{
+        left: 1230px;
+        top: 500px;
+    }
+} */
+
+.rei{
+    width: 90px;
+    height: 39px;
+    background-image: url(https://www.gambaranimasi.org/data/media/412/animasi-bergerak-kendaraan-industri-0212.gif);
+    position: relative;
+    animation: REI 6s infinite;
+    left: 0px;
+    top: 40px;
+}
+.rei1{
+    width: 90px;
+    height: 39px;
+    background-image: url(https://www.gambaranimasi.org/data/media/412/animasi-bergerak-kendaraan-industri-0212.gif);
+    position: relative;
+    animation: REI 8s infinite;
+    left: 0px;
+    top: 40px;
+}
+.rei2{
+    width: 90px;
+    height: 39px;
+    background-image: url(https://www.gambaranimasi.org/data/media/412/animasi-bergerak-kendaraan-industri-0212.gif);
+    position: relative;
+    animation: REI 5s infinite;
+    left: 0px;
+    top: 40px;
+}
+
+
+@keyframes REI {
+    0%{
+        left: 0px;
+    }
+    100%{
+        left: 1200px;
+    }
+    
+}
